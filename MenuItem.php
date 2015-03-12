@@ -3,9 +3,9 @@
 use Illuminate\Support\Facades\HTML;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Request;
-use Illuminate\Support\Contracts\ArrayableInterface;
+use Illuminate\Support\Contracts\Arrayable;
 
-class MenuItem implements ArrayableInterface {
+class MenuItem implements Arrayable {
     
     /**
      * Array properties.
